@@ -26,9 +26,9 @@ const NavBar = () => {
     ]
   return (
     <div className='flex justify-between items-center w-full h-20
-    px-4 text-white bg-blue-900 fixed'>
+    px-4 text-white bg-purple-900 fixed'>
         <div>
-            <h1 className='text-4xl ml-2'>SHOLZ</h1>
+            <h1 className='text-4xl ml-2'>Dee</h1>
         </div> 
         
         <ul className='hidden md:flex'>
@@ -48,7 +48,7 @@ const NavBar = () => {
         
         {nav && (
                   <ul className='flex flex-col justify-center items-center
-                  absolute top-0 left-0 w-full h-screen bg-blue-900 '>
+                  absolute top-0 left-0 w-full h-screen bg-purple-900 '>
                   {links.map(({id, link})  =>(
                 <li key={id}
                 className='px-3 cursor-pointer capitalize py-6 text-4xl'>

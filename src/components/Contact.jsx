@@ -4,7 +4,7 @@ const Contact = () => {
 
 
   return (
-    <div name='contact' className='w-full h-150 bg-blue-900 text-white'>
+    <div name='contact' className='w-full h-150 bg-purple-900 text-white'>
       <div className='flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full'>
         <div className='pb-8'>
           <p className='text-4xl text-white font-bold inline border-b-4 border-gray-300'>Contact</p>
@@ -38,7 +38,7 @@ const Contact = () => {
             text-white focus:outline-none'
             ></textarea>
             
-            <button className='text-blue-900 bg-white px-6 py-3 my-8 mx-auto flex
+            <button className='text-purple-900 bg-white px-6 py-3 my-8 mx-auto flex
             items-center rounded-md hover:scale-110 duration-300'>Send</button>
         </form>
         </div>

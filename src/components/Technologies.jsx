@@ -7,10 +7,11 @@ import java from '../assets/technologies/Java.png'
 import mysql from '../assets/technologies/mysql.png'
 import springboot from '../assets/technologies/springboot.png'
 import python from '../assets/technologies/python.png'
-import coreldraw from '../assets/technologies/corel.png'
-import ps from '../assets/technologies/photoshop.png'
+import nodeJS from '../assets/technologies/nodejs.png'
+import django from '../assets/technologies/django.jpeg'
 import figma from '../assets/technologies/figma-logo.png'
 import tailwind from '../assets/technologies/tailwind.png'
+
 
 
 const Technologies = () => {
@@ -58,13 +59,13 @@ const Technologies = () => {
 },
 {
   id: 9,
-  src: coreldraw,
-  title:'CORELDRAW'
+  src: nodeJS,
+  title:'NodeJS'
 },
 {
   id: 10,
-  src: ps,
-  title:'PHOTOSHOP'
+  src: django,
+  title:'Flask'
 },
 {
   id: 11,
@@ -82,7 +83,7 @@ const Technologies = () => {
         <div className='max-w-screen-lg mx-auto p-4 flex-col
         justify-center w-full' text-blue-900>
             <div>
-                <p className='text-4xl text-blue-900 font-bold 
+                <p className='text-4xl text-purple-900 font-bold 
                 border-b-4 border-gray-200 p-2 inline'>
                   Technologies</p>
                 <p className='py-6'>Some of the technologies I've worked with</p>
